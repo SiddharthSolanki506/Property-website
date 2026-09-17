@@ -1,0 +1,6 @@
+{
+  "name": "PropertyDekhey",
+  "description": "India's trusted real estate marketplace to buy, rent, sell, and discover verified residential and commercial properties. Apni Property, Apni Choice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

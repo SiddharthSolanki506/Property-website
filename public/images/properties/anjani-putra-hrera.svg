@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081226" />
+      <stop offset="50%" stop-color="#0d1f3d" />
+      <stop offset="100%" stop-color="#050b17" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="25%" stop-color="#FFF4D0" />
+      <stop offset="50%" stop-color="#F3C343" />
+      <stop offset="75%" stop-color="#AA7C11" />
+      <stop offset="100%" stop-color="#E5B93E" />
+    </linearGradient>
+    <linearGradient id="goldCardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1d2d4f" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0d182e" stop-opacity="0.95" />
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="url(#bgGrad)" />
+
+  <!-- Geometric luxury borders -->
+  <rect x="30" y="30" width="1140" height="840" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6" rx="16" />
+  <rect x="44" y="44" width="1112" height="812" fill="none" stroke="#F3C343" stroke-width="1" opacity="0.3" stroke-dasharray="6,6" rx="12" />
+
+  <!-- Corner embellishments -->
+  <path d="M 30 70 L 70 30 M 30 80 L 80 30 M 1170 70 L 1130 30 M 1170 80 L 1120 30 M 30 830 L 70 870 M 30 820 L 80 870 M 1170 830 L 1130 870 M 1170 820 L 1120 870" stroke="url(#goldGrad)" stroke-width="2" opacity="0.5" />
+
+  <!-- Sparkling background particles -->
+  <circle cx="180" cy="140" r="2" fill="#FFF4D0" opacity="0.8" />
+  <circle cx="240" cy="280" r="3" fill="#F3C343" opacity="0.6" />
+  <circle cx="1020" cy="160" r="3" fill="#FFF4D0" opacity="0.8" />
+  <circle cx="960" cy="310" r="2" fill="#F3C343" opacity="0.7" />
+  <circle cx="150" cy="720" r="3" fill="#F3C343" opacity="0.5" />
+  <circle cx="1050" cy="740" r="2" fill="#FFF4D0" opacity="0.7" />
+
+  <!-- Emblem / Sunburst Logo -->
+  <g transform="translate(600, 150)">
+    <circle cx="0" cy="0" r="52" fill="none" stroke="url(#goldGrad)" stroke-width="3" />
+    <circle cx="0" cy="0" r="44" fill="#0d1f3d" stroke="#D4AF37" stroke-width="1.5" />
+    <!-- Sun Rays -->
+    <path d="M 0 -40 L 0 -22 M 0 40 L 0 22 M -40 0 L -22 0 M 40 0 L 22 0 M -28 -28 L -16 -16 M 28 28 L 16 16 M -28 28 L -16 16 M 28 -28 L 16 -16" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="12" fill="url(#goldGrad)" />
+  </g>
+
+  <!-- Brand Name -->
+  <text x="600" y="260" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', serif" font-size="48" font-weight="bold" fill="url(#goldGrad)" letter-spacing="4">
+    Anjani <tspan font-family="'Cinzel', serif" font-weight="900" fill="#FFFFFF">PUTRA</tspan>
+  </text>
+
+  <!-- Ribbon/Banner: A Proud Milestone Achieved -->
+  <text x="600" y="320" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="24" font-weight="700" fill="#F3C343" letter-spacing="5">
+    A PROUD MILESTONE ACHIEVED
+  </text>
+  <line x1="380" y1="335" x2="820" y2="335" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.7" />
+
+  <!-- HRERA Received Announcement Box -->
+  <g transform="translate(250, 360)">
+    <rect width="700" height="170" rx="20" fill="url(#goldCardGrad)" stroke="url(#goldGrad)" stroke-width="2.5" filter="url(#goldGlow)" />
+    <rect x="8" y="8" width="684" height="154" rx="14" fill="none" stroke="#FFF4D0" stroke-width="1" opacity="0.25" />
+
+    <text x="350" y="52" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', serif" font-size="36" font-weight="900" fill="#FFFFFF" letter-spacing="2">
+      HRERA Received
+    </text>
+
+    <!-- Registration Code Pill -->
+    <rect x="110" y="75" width="480" height="65" rx="12" fill="#07101e" stroke="#F3C343" stroke-width="2" />
+    <text x="350" y="119" text-anchor="middle" font-family="'Consolas', 'Courier New', monospace" font-size="32" font-weight="bold" fill="#FCD34D" letter-spacing="3">
+      HRERA-PKL-PWL-923-2026
+    </text>
+  </g>
+
+  <!-- Location and Project Title -->
+  <text x="600" y="590" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="36" font-weight="800" fill="url(#goldGrad)" letter-spacing="3">
+    ANJANI PUTRA
+  </text>
+  <text x="600" y="630" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="20" font-weight="600" fill="#E2E8F0" letter-spacing="4">
+    SECTOR 6, PRITHLA, HARYANA
+  </text>
+
+  <!-- Scheme Badge -->
+  <g transform="translate(220, 665)">
+    <rect width="760" height="55" rx="28" fill="#D4AF37" fill-opacity="0.15" stroke="#F3C343" stroke-width="1.5" />
+    <text x="380" y="36" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="18" font-weight="700" fill="#FDE68A" letter-spacing="1.5">
+      AFFORDABLE PLOTS UNDER DEEN DAYAL AWAS YOJNA HARYANA
+    </text>
+  </g>
+
+  <!-- Tagline -->
+  <text x="600" y="775" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="22" font-weight="700" fill="#F3C343" letter-spacing="1">
+    BUILDING AFFORDABLE HOMES. <tspan font-style="italic" font-weight="400" fill="#FFFFFF">Building stronger communities.</tspan>
+  </text>
+
+  <!-- Website URL Footer -->
+  <text x="600" y="825" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="18" font-weight="600" fill="#93C5FD" letter-spacing="2">
+    www.anjaniputragroup.com
+  </text>
+</svg>

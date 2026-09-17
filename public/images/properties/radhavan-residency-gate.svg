@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c2410c" />
+      <stop offset="30%" stop-color="#ea580c" />
+      <stop offset="60%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fef08a" />
+    </linearGradient>
+    <linearGradient id="goldGate" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="30%" stop-color="#fde047" />
+      <stop offset="70%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+    <linearGradient id="pillarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0" />
+      <stop offset="50%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sunset Sky -->
+  <rect width="1200" height="900" fill="url(#skyGrad)" />
+
+  <!-- Sun disk -->
+  <circle cx="600" cy="420" r="120" fill="#FFFBEB" opacity="0.6" />
+
+  <!-- Paved Entrance Boulevard -->
+  <polygon points="480,520 720,520 1000,900 200,900" fill="url(#roadGrad)" />
+  <!-- Road divider markings -->
+  <polygon points="596,520 604,520 610,900 590,900" fill="#FEF08A" opacity="0.8" />
+
+  <!-- Left and Right Landscaped Lawns & Palm Silhouettes -->
+  <polygon points="0,650 400,560 200,900 0,900" fill="#14532d" />
+  <polygon points="1200,650 800,560 1000,900 1200,900" fill="#14532d" />
+
+  <!-- Palm Tree Left -->
+  <g transform="translate(180, 420)">
+    <path d="M 40 240 Q 20 120 10 0" stroke="#78350f" stroke-width="14" fill="none" />
+    <!-- Fronds -->
+    <path d="M 10 0 Q -50 -40 -90 -10" stroke="#166534" stroke-width="8" fill="none" />
+    <path d="M 10 0 Q -20 -70 -50 -80" stroke="#15803d" stroke-width="8" fill="none" />
+    <path d="M 10 0 Q 30 -80 70 -60" stroke="#166534" stroke-width="8" fill="none" />
+    <path d="M 10 0 Q 60 -40 100 -20" stroke="#15803d" stroke-width="8" fill="none" />
+  </g>
+
+  <!-- Palm Tree Right -->
+  <g transform="translate(1020, 420)">
+    <path d="M -40 240 Q -20 120 -10 0" stroke="#78350f" stroke-width="14" fill="none" />
+    <!-- Fronds -->
+    <path d="M -10 0 Q -60 -40 -100 -20" stroke="#15803d" stroke-width="8" fill="none" />
+    <path d="M -10 0 Q -30 -80 -70 -60" stroke="#166534" stroke-width="8" fill="none" />
+    <path d="M -10 0 Q 20 -70 50 -80" stroke="#15803d" stroke-width="8" fill="none" />
+    <path d="M -10 0 Q 50 -40 90 -10" stroke="#166534" stroke-width="8" fill="none" />
+  </g>
+
+  <!-- Grand Entrance Gate Structure -->
+  <!-- Left Tower Pillar -->
+  <rect x="300" y="280" width="80" height="360" fill="url(#pillarGrad)" stroke="#94a3b8" stroke-width="2" />
+  <!-- Left Chhatri / Dome -->
+  <path d="M 290 280 Q 340 210 390 280 Z" fill="url(#goldGate)" stroke="#b45309" stroke-width="2" />
+  <circle cx="340" cy="205" r="8" fill="url(#goldGate)" />
+
+  <!-- Right Tower Pillar -->
+  <rect x="820" y="280" width="80" height="360" fill="url(#pillarGrad)" stroke="#94a3b8" stroke-width="2" />
+  <!-- Right Chhatri / Dome -->
+  <path d="M 810 280 Q 860 210 910 280 Z" fill="url(#goldGate)" stroke="#b45309" stroke-width="2" />
+  <circle cx="860" cy="205" r="8" fill="url(#goldGate)" />
+
+  <!-- Overhead Arch Beam -->
+  <rect x="300" y="290" width="600" height="75" fill="url(#pillarGrad)" stroke="#94a3b8" stroke-width="2" />
+  <rect x="310" y="300" width="580" height="55" fill="#0f172a" rx="6" />
+
+  <!-- Gold Title on Entrance Arch: RADHAVAN RESIDENCY -->
+  <text x="600" y="340" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', serif" font-size="34" font-weight="900" fill="url(#goldGate)" letter-spacing="6">
+    RADHAVAN RESIDENCY
+  </text>
+
+  <!-- Security Booth Center -->
+  <rect x="560" y="460" width="80" height="100" rx="6" fill="url(#pillarGrad)" stroke="#475569" stroke-width="2" />
+  <rect x="570" y="475" width="60" height="45" rx="4" fill="#0284c7" opacity="0.7" />
+  <text x="600" y="545" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="10" font-weight="900" fill="#0f172a" letter-spacing="1">
+    SECURITY
+  </text>
+
+  <!-- Big Floating Title at Top -->
+  <text x="600" y="100" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', serif" font-size="48" font-weight="900" fill="#FFFFFF" letter-spacing="6">
+    RADHAVAN RESIDENCY
+  </text>
+  <text x="600" y="145" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="20" font-weight="700" fill="#FEF08A" letter-spacing="3">
+    GRAND ENTRANCE &amp; 50-ACRE GATED TOWNSHIP
+  </text>
+  <text x="600" y="180" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" letter-spacing="2">
+    Shri Krishna Nagri, Chaumuha, Mathura-Vrindavan Corridor
+  </text>
+</svg>

@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="bptpBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#11291f" />
+      <stop offset="40%" stop-color="#0e2118" />
+      <stop offset="75%" stop-color="#1c382b" />
+      <stop offset="100%" stop-color="#0a1912" />
+    </linearGradient>
+    <linearGradient id="zenGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5C07B" />
+      <stop offset="50%" stop-color="#FFF1D0" />
+      <stop offset="100%" stop-color="#D19A66" />
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1d4030" />
+      <stop offset="100%" stop-color="#0d2218" />
+    </linearGradient>
+    <radialGradient id="sunZen" cx="50%" cy="40%" r="45%">
+      <stop offset="0%" stop-color="#EF4444" stop-opacity="0.35" />
+      <stop offset="70%" stop-color="#EF4444" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#EF4444" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="url(#bptpBg)" />
+
+  <!-- Japanese Rising Sun Radial Glow -->
+  <circle cx="600" cy="350" r="320" fill="url(#sunZen)" />
+
+  <!-- Japanese Torii Gate silhouette in background -->
+  <g opacity="0.2" transform="translate(500, 220) scale(1.1)">
+    <rect x="-20" y="0" width="220" height="16" rx="4" fill="#E5C07B" />
+    <path d="M -40 -12 Q 90 -24 220 -12 L 210 2 Q 90 -10 -30 2 Z" fill="#E5C07B" />
+    <rect x="20" y="16" width="18" height="180" fill="#E5C07B" />
+    <rect x="142" y="16" width="18" height="180" fill="#E5C07B" />
+    <rect x="10" y="45" width="160" height="12" fill="#E5C07B" />
+  </g>
+
+  <!-- Bamboo stalks stylized silhouette -->
+  <g opacity="0.15" stroke="#A7F3D0" stroke-width="4">
+    <line x1="80" y1="100" x2="80" y2="800" />
+    <line x1="130" y1="160" x2="130" y2="800" />
+    <line x1="1080" y1="120" x2="1080" y2="800" />
+    <line x1="1130" y1="180" x2="1130" y2="800" />
+  </g>
+
+  <!-- Top Ribbon: NEW LAUNCH -->
+  <g transform="translate(500, 45)">
+    <rect width="200" height="40" rx="6" fill="#000000" stroke="#E5C07B" stroke-width="1.5" />
+    <text x="100" y="26" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" letter-spacing="3">
+      NEW LAUNCH
+    </text>
+  </g>
+
+  <!-- Brand Title: BPTP Wa Vana -->
+  <text x="600" y="160" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', serif" font-size="64" font-weight="bold" fill="#FFFFFF" letter-spacing="4">
+    BPTP <tspan font-family="'Playfair Display', serif" font-style="italic" font-weight="800" fill="url(#zenGold)">Wa Vana</tspan>
+  </text>
+
+  <!-- Subtitle: THE JAPANESE THEME - SECTOR-80, FARIDABAD -->
+  <text x="600" y="215" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="24" font-weight="800" fill="url(#zenGold)" letter-spacing="3">
+    THE JAPANESE THEME — SECTOR-80, FARIDABAD
+  </text>
+  <line x1="320" y1="235" x2="880" y2="235" stroke="url(#zenGold)" stroke-width="1.5" opacity="0.7" />
+
+  <!-- Prime Landmark Tagline: Walking Distance from OMAXE WORLD STREET -->
+  <g transform="translate(280, 260)">
+    <rect width="640" height="50" rx="25" fill="#07140e" stroke="#E5C07B" stroke-width="1.5" />
+    <text x="320" y="32" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="19" font-weight="700" fill="#FDE68A" letter-spacing="2">
+      WALKING DISTANCE FROM OMAXE WORLD STREET
+    </text>
+  </g>
+
+  <!-- RERA Approved Gold Crest Badge -->
+  <g transform="translate(490, 335)">
+    <rect width="220" height="44" rx="8" fill="#166534" fill-opacity="0.4" stroke="#4ADE80" stroke-width="2" />
+    <text x="110" y="29" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="18" font-weight="900" fill="#4ADE80" letter-spacing="2">
+      ✓ RERA APPROVED
+    </text>
+  </g>
+
+  <!-- 4 Key Highlights Grid (2x2) -->
+  <g transform="translate(160, 420)">
+    <!-- Box 1: PLOT SIZE -->
+    <rect x="0" y="0" width="410" height="140" rx="16" fill="url(#badgeGrad)" stroke="#E5C07B" stroke-width="2" />
+    <text x="205" y="55" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="17" font-weight="700" fill="#A7F3D0" letter-spacing="2">
+      EXCLUSIVE RESIDENTIAL PLOTS
+    </text>
+    <text x="205" y="105" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="28" font-weight="900" fill="url(#zenGold)" letter-spacing="1">
+      256 – 299 SQ.YARDS
+    </text>
+
+    <!-- Box 2: GATED SOCIETY -->
+    <rect x="470" y="0" width="410" height="140" rx="16" fill="url(#badgeGrad)" stroke="#E5C07B" stroke-width="2" />
+    <text x="675" y="55" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="17" font-weight="700" fill="#A7F3D0" letter-spacing="2">
+      SECURE PLANNED COMMUNITY
+    </text>
+    <text x="675" y="105" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="28" font-weight="900" fill="url(#zenGold)" letter-spacing="1">
+      GATED SOCIETY 24×7
+    </text>
+
+    <!-- Box 3: 2 ACRES CLUB HOUSE -->
+    <rect x="0" y="170" width="410" height="140" rx="16" fill="url(#badgeGrad)" stroke="#E5C07B" stroke-width="2" />
+    <text x="205" y="225" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="17" font-weight="700" fill="#A7F3D0" letter-spacing="2">
+      LUXURY JAPANESE CLUBHOUSE
+    </text>
+    <text x="205" y="275" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="28" font-weight="900" fill="url(#zenGold)" letter-spacing="1">
+      2 ACRES CLUB HOUSE
+    </text>
+
+    <!-- Box 4: 1.5 ACRES PARK -->
+    <rect x="470" y="170" width="410" height="140" rx="16" fill="url(#badgeGrad)" stroke="#E5C07B" stroke-width="2" />
+    <text x="675" y="225" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="17" font-weight="700" fill="#A7F3D0" letter-spacing="2">
+      LUSH ZEN FOREST &amp; BOTANICALS
+    </text>
+    <text x="675" y="275" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="28" font-weight="900" fill="url(#zenGold)" letter-spacing="1">
+      1.5 ACRES PARK
+    </text>
+  </g>
+
+  <!-- Zen Philosophy Footer -->
+  <text x="600" y="800" text-anchor="middle" font-family="'Playfair Display', serif" font-style="italic" font-size="20" font-weight="600" fill="url(#zenGold)" letter-spacing="1.5">
+    Harmonious Living Inspired by Ikigai, Kaizen &amp; Ichigo Ichie
+  </text>
+  <text x="600" y="840" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="15" font-weight="600" fill="#94A3B8" letter-spacing="2">
+    SECTOR 80, GREATER FARIDABAD, HARYANA
+  </text>
+</svg>

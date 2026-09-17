@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="s112Bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f" />
+      <stop offset="40%" stop-color="#112240" />
+      <stop offset="75%" stop-color="#1a365d" />
+      <stop offset="100%" stop-color="#081226" />
+    </linearGradient>
+    <linearGradient id="s112Gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#FDE68A" />
+      <stop offset="100%" stop-color="#AA7C11" />
+    </linearGradient>
+    <linearGradient id="priceCard1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f" />
+      <stop offset="100%" stop-color="#0c192c" />
+    </linearGradient>
+    <linearGradient id="towerGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="50%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <filter id="glow112">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="900" fill="url(#s112Bg)" />
+
+  <!-- Background Tower Silhouettes and Architectural Grid -->
+  <g opacity="0.25">
+    <!-- Tower Left -->
+    <rect x="180" y="320" width="130" height="350" rx="6" fill="url(#towerGrad1)" />
+    <!-- Tower Center -->
+    <rect x="350" y="240" width="170" height="430" rx="8" fill="url(#towerGrad1)" />
+    <!-- Tower Right -->
+    <rect x="560" y="290" width="140" height="380" rx="6" fill="url(#towerGrad1)" />
+    <!-- Tower Far Right -->
+    <rect x="740" y="350" width="110" height="320" rx="4" fill="url(#towerGrad1)" />
+
+    <!-- Balcony grids & illuminated windows -->
+    <line x1="360" y1="280" x2="510" y2="280" stroke="#FEF08A" stroke-width="2" />
+    <line x1="360" y1="320" x2="510" y2="320" stroke="#FEF08A" stroke-width="2" />
+    <line x1="360" y1="360" x2="510" y2="360" stroke="#FEF08A" stroke-width="2" />
+    <line x1="360" y1="400" x2="510" y2="400" stroke="#FEF08A" stroke-width="2" />
+    <line x1="360" y1="440" x2="510" y2="440" stroke="#FEF08A" stroke-width="2" />
+    <line x1="360" y1="480" x2="510" y2="480" stroke="#FEF08A" stroke-width="2" />
+    <line x1="360" y1="520" x2="510" y2="520" stroke="#FEF08A" stroke-width="2" />
+    <line x1="360" y1="560" x2="510" y2="560" stroke="#FEF08A" stroke-width="2" />
+  </g>
+
+  <!-- Golden Light Beams -->
+  <polygon points="600,0 450,900 750,900" fill="url(#s112Gold)" opacity="0.06" />
+
+  <!-- Top Headline: Own a Luxury Address at an Affordable Price -->
+  <text x="600" y="80" text-anchor="middle" font-family="'Playfair Display', serif" font-style="italic" font-size="32" font-weight="600" fill="url(#s112Gold)" letter-spacing="1.5">
+    Own a Luxury Address at an Affordable Price
+  </text>
+
+  <!-- Tag Pill: INVEST IN UPCOMING PROJECT -->
+  <g transform="translate(410, 105)">
+    <rect width="380" height="44" rx="22" fill="#D4AF37" stroke="#FDE68A" stroke-width="1.5" />
+    <text x="190" y="29" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="18" font-weight="800" fill="#0a192f" letter-spacing="2">
+      INVEST IN UPCOMING PROJECT
+    </text>
+  </g>
+
+  <!-- Big Bold Location: SECTOR 112, FARIDABAD -->
+  <text x="600" y="215" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="56" font-weight="900" fill="#FFFFFF" letter-spacing="4">
+    SECTOR 112, FARIDABAD
+  </text>
+  <line x1="350" y1="235" x2="850" y2="235" stroke="url(#s112Gold)" stroke-width="2" />
+
+  <!-- Subtitle -->
+  <text x="600" y="285" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="24" font-weight="700" fill="#93C5FD" letter-spacing="2">
+    2 BHK &amp; 3 BHK SPACIOUS HIGHRISE APARTMENTS
+  </text>
+  <text x="600" y="325" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="19" font-weight="600" fill="#E2E8F0" letter-spacing="3">
+    WITH A FLEXIBLE PAYMENT PLAN
+  </text>
+
+  <!-- Two Big Pricing Cards -->
+  <g transform="translate(170, 370)">
+    <!-- Card 1: 2 BHK -->
+    <rect x="0" y="0" width="400" height="200" rx="20" fill="url(#priceCard1)" stroke="#D4AF37" stroke-width="2.5" filter="url(#glow112)" />
+    <rect x="8" y="8" width="384" height="184" rx="14" fill="none" stroke="#FDE68A" stroke-width="1" opacity="0.3" />
+    <text x="200" y="55" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="20" font-weight="700" fill="#E2E8F0" letter-spacing="1.5">
+      BOOK 2 BHK FOR JUST
+    </text>
+    <text x="200" y="130" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="52" font-weight="900" fill="url(#s112Gold)" letter-spacing="1">
+      ₹3 LACS*
+    </text>
+    <text x="200" y="168" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="14" font-weight="600" fill="#94A3B8">
+      High-Rise Scenic Balconies
+    </text>
+
+    <!-- Card 2: 3 BHK -->
+    <rect x="460" y="0" width="400" height="200" rx="20" fill="url(#priceCard1)" stroke="#D4AF37" stroke-width="2.5" filter="url(#glow112)" />
+    <rect x="468" y="8" width="384" height="184" rx="14" fill="none" stroke="#FDE68A" stroke-width="1" opacity="0.3" />
+    <text x="660" y="55" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="20" font-weight="700" fill="#E2E8F0" letter-spacing="1.5">
+      BOOK 3 BHK FOR JUST
+    </text>
+    <text x="660" y="130" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="52" font-weight="900" fill="url(#s112Gold)" letter-spacing="1">
+      ₹4 LACS*
+    </text>
+    <text x="660" y="168" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="14" font-weight="600" fill="#94A3B8">
+      Spacious Master Suites &amp; Living
+    </text>
+  </g>
+
+  <!-- LOI Received Verified Badge -->
+  <g transform="translate(480, 610)">
+    <rect width="240" height="52" rx="26" fill="#10B981" fill-opacity="0.2" stroke="#34D399" stroke-width="2" />
+    <circle cx="35" cy="26" r="12" fill="#10B981" />
+    <path d="M 29 26 L 33 30 L 41 22" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="135" y="34" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="20" font-weight="800" fill="#34D399" letter-spacing="2">
+      LOI RECEIVED
+    </text>
+  </g>
+
+  <!-- Bottom Amenities Bar -->
+  <g transform="translate(150, 700)">
+    <rect width="900" height="75" rx="18" fill="#0c192c" stroke="#1E3A8A" stroke-width="1.5" />
+    <text x="450" y="47" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="17" font-weight="700" fill="#FDE68A" letter-spacing="2.5">
+      WORLD CLASS AMENITIES  •  GATED COMMUNITY  •  24×7 SECURITY  •  CLUB HOUSE &amp; POOL
+    </text>
+  </g>
+
+  <!-- Footer Notice -->
+  <text x="600" y="830" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="14" font-weight="500" fill="#64748B">
+    *Terms &amp; conditions apply. Government taxes &amp; applicable charges extra.
+  </text>
+</svg>
